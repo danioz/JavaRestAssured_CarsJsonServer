@@ -1,0 +1,1516 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "BMW",
+      "model": "750i",
+      "generation": 6,
+      "colorDetails": {
+        "color": "Schwarz",
+        "code": "668"
+      },
+      "engine": {
+        "displacement": 4395,
+        "cylinderSystem": "V8",
+        "power": 450
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {},
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "brand": "BMW",
+      "model": "740i",
+      "generation": 6,
+      "colorDetails": {
+        "color": "Alpinweiss ",
+        "code": "146"
+      },
+      "engine": {
+        "displacement": 2998,
+        "cylinderSystem": "R6",
+        "power": 326
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": false,
+          "ventilated": false,
+          "massage": false
+        },
+        "backSeats": {
+          "heated": false,
+          "ventilated": false,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": true,
+          "steelSecuredBody": true,
+          "antiExplosionFloor": true,
+          "specialTires": {
+            "tireTread": 35,
+            "tireReinforcement": "Run Flat",
+            "tirePressureSensor": "High Pressure type 3"
+          },
+          "healthMonitorSystem": {
+            "backupAirSystem": {
+              "airCapacity": 50,
+              "airPowerAuxiliary": "Ultra long life Chonker2000 24V, 5A, 2000W, 12h"
+            },
+            "firstAid": {
+              "severedLimbsAid": true,
+              "gunShotWoundsAid": {
+                "cal5_6mmAid": true,
+                "cal7_62mmAid": true,
+                "cal9mmAid": true,
+                "cal9_5mmAid": false,
+                "cal13mmAid": false
+              }
+            }
+          }
+        },
+        "extras": {
+          "heatedSteeringWheel": false,
+          "smokerPackage": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "01.01.2022",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "02.01.2022",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "03.01.2022",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "04.01.2022",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "brand": "BMW",
+      "model": "M760Li",
+      "generation": 6,
+      "colorDetails": {
+        "color": "Frozen Blue",
+        "code": "B94"
+      },
+      "engine": {
+        "displacement": 6592,
+        "cylinderSystem": "V12",
+        "power": 610
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "securityPackage": {},
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": true,
+          "electricCurtains": true,
+          "bmwIndividual": true,
+          "removedEmblems": true
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "01.02.2022",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "05.02.2022",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "18.02.2022",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2022",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "750i",
+      "generation": 6,
+      "colorDetails": {
+        "color": "Schwarz",
+        "code": "668"
+      },
+      "engine": {
+        "displacement": 4395,
+        "cylinderSystem": "V8",
+        "power": "450"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "id": 6,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "id": 9,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 13
+    },
+    {
+      "id": 14,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 17
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 18
+    },
+    {
+      "id": 19,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 20
+    },
+    {
+      "id": 21,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 25
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 27
+    },
+    {
+      "id": 28,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 32
+    },
+    {
+      "id": 33,
+      "brand": "BMW",
+      "model": "335",
+      "generation": 5,
+      "colorDetails": {
+        "color": "black",
+        "code": "77"
+      },
+      "engine": {
+        "displacement": 3496,
+        "cylinderSystem": "V8",
+        "power": "900"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "330",
+      "generation": 4,
+      "colorDetails": {
+        "color": "black",
+        "code": "71"
+      },
+      "engine": {
+        "displacement": 2996,
+        "cylinderSystem": "R6",
+        "power": "500"
+      },
+      "interior": {
+        "frontSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": true
+        },
+        "backSeats": {
+          "heated": true,
+          "ventilated": true,
+          "massage": false
+        },
+        "securityPackage": {
+          "bulletproofWindows": false,
+          "steelSecuredBody": false,
+          "antiExplosionFloor": false
+        },
+        "extras": {
+          "heatedSteeringWheel": true,
+          "smokerPackage": true,
+          "selfParkingSystem": false,
+          "electricCurtains": false,
+          "bmwIndividual": false,
+          "removedEmblems": false
+        }
+      },
+      "productionHistory": [
+        {
+          "date": "22.01.2021",
+          "description": "Car manufactured"
+        },
+        {
+          "date": "01.02.2021",
+          "description": "Car put on parking slot"
+        },
+        {
+          "date": "21.02.2021",
+          "description": "Shippment prepratation"
+        },
+        {
+          "date": "01.03.2021",
+          "description": "Car shipped"
+        }
+      ],
+      "id": 35
+    }
+  ],
+  "users": [
+    {
+      "email": "testUser@mail.com",
+      "password": "$2a$10$lWvR3.rDou7se/Kgf5hMUuC8wtuPTT/Iue/gBKE.FyRua1N4qNSRS",
+      "id": 1
+    },
+    {
+      "email": "4e31df726f@mail.com",
+      "password": "$2a$10$fM4zH.GeBDcwdz4HabspgOeRjIkzmc7NH1rxBvXVTGArAT5Ry0hh6",
+      "id": 2
+    },
+    {
+      "email": "19dbceae5d@mail.com",
+      "password": "$2a$10$/dT7rcqWsOwmj4m1ilfqMugwNpzKRfDn5DhoWuOeMy/KfwdHawTRO",
+      "id": 3
+    },
+    {
+      "email": "ee5d2d601c@mail.com",
+      "password": "$2a$10$XeHEfR3Zmn708WuTSgCZe.eXYIEicdWWIA5DlUQUaf/dGQeRmJsRO",
+      "id": 4
+    },
+    {
+      "email": "9737899c32@mail.com",
+      "password": "$2a$10$BgwJL2fHOqvpVAe0JzxMoujVe23pcfOpQkLwBeaoZhwOua2LQAbOq",
+      "id": 5
+    },
+    {
+      "email": "b04643380f@mail.com",
+      "password": "$2a$10$q9iV5MMXD9OMYIFImJKUyughP6taNyM.VWXa5mD6fNZO8L15AbGFO",
+      "id": 6
+    },
+    {
+      "email": "4795c02b08@mail.com",
+      "password": "$2a$10$AYRw7Ou3ePUMnG7EC.ipI.M2Qkcz4/wdzCnuifUXD3BTCTpBkzef2",
+      "id": 7
+    },
+    {
+      "email": "0c4991502e@mail.com",
+      "password": "$2a$10$o7Xmxma4YU9KH79SfzdIquvIzOq/TKzgkg/3dBbZCZfQ.PUtG0Xxu",
+      "id": 8
+    },
+    {
+      "email": "8074b33a32@mail.com",
+      "password": "$2a$10$Bu6FaUEJTb9MYO6I7qBAd.N7Onssw.9rfL/dG03gtCtNVWpG1O3tm",
+      "id": 9
+    },
+    {
+      "email": "591ba84031@mail.com",
+      "password": "$2a$10$w5WpCc5kQSoT71BWfSA82eOSfINz3azZODwN/ZOF0HyISRSDVt0ZS",
+      "id": 10
+    },
+    {
+      "email": "b07d0622b1@mail.com",
+      "password": "$2a$10$X1OOjwT9tnhf4/1kso9Wwu6ZLgyvwoabKfYVAebFKgFt9/A/aa9de",
+      "id": 11
+    }
+  ]
+}

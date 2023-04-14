@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="APICars project API Tests" parallel="tests">
+    <listeners>
+        <listener class-name="testUtils.RetryListener"/>
+    </listeners>
+    <test name="APICars project">
+        <parameter name="url" value="${env.URL}"/>
+        <classes>
+            <class name="apiCarsProject.api.runner.CarsProjectTestRunner"/>
+        </classes>
+    </test>
+</suite>
