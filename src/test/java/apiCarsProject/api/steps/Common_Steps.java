@@ -4,6 +4,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.qameta.allure.Allure;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.specification.PreemptiveAuthSpec;
 import io.restassured.specification.RequestSpecification;
@@ -28,6 +29,7 @@ public class Common_Steps extends Base_Steps {
     @Given("Setup base request specification with user credentials for {}")
     public void setupPreemptiveAuthSpec(String userRole) {
         RequestSpecification requestSpecification = given()
+                .filters(new AllureRestAssured())
                 .relaxedHTTPSValidation()
                 .baseUri(System.getProperty("url"))
                 .auth()
@@ -42,6 +44,7 @@ public class Common_Steps extends Base_Steps {
     @Given("Setup base request specification without auth")
     public void setupPreemptiveAuthSpecWithoutAuth() {
         RequestSpecification requestSpecification = given()
+                .filters(new AllureRestAssured())
                 .relaxedHTTPSValidation()
                 .baseUri(System.getProperty("url"))
                 .contentType(ContentType.JSON)

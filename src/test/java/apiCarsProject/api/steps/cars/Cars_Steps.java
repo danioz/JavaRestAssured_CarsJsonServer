@@ -126,12 +126,12 @@ public class Cars_Steps extends Base_Steps<Cars_Endpoint> {
 
     @Then("Cars response should have proper cars details")
     public void carsResponseShouldHaveProperCarDetailsMany(List<CarsDataModel> expectedCarsData) {
-//Assertj can handle two collection there should not be for loop inside Then step
         for (CarsDataModel expectedCarDatum : expectedCarsData) {
             //Act
             CarsDataModel actualCarData = endpoint.getCarByBrandAndModel(expectedCarDatum.getBrand(), expectedCarDatum.getModel());
 
             //Assert
+            //todo: compare lists
             RecursiveComparisonConfiguration comparisonConfiguration = new RecursiveComparisonConfiguration();
             comparisonConfiguration.setIgnoreAllExpectedNullFields(true);
             Assertions.assertThat(actualCarData).usingRecursiveComparison(comparisonConfiguration).isEqualTo(expectedCarDatum);
@@ -144,6 +144,7 @@ public class Cars_Steps extends Base_Steps<Cars_Endpoint> {
         CarsDataModel[] actualCarsData = endpoint.getCarsData();
 
         //Assert
+        // todo: fix assertion
         Assertions.assertThat(actualCarsData).usingRecursiveFieldByFieldElementComparatorOnFields("brand", "model")
                 .containsAll(expectedCarsData);
     }
