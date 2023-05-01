@@ -3,6 +3,7 @@ package apiCarsProject.api.steps.cars;
 import apiCarsProject.api.cars.Cars_Endpoint;
 import apiCarsProject.api.cars.dataModel.*;
 import apiCarsProject.api.steps.Base_Steps;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.DataTableType;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -70,7 +71,8 @@ public class Cars_Steps extends Base_Steps<Cars_Endpoint> {
 
     //region When
     @When("Car request is updated with")
-    public void updateCarRequest(CarsDataModel carData) {
+    public void updateCarRequest(DataTable dataTable) {
+        CarsDataModel carData = dataTable.convert(CarsDataModel.class, false);
         endpoint.setCarData(carData);
     }
 

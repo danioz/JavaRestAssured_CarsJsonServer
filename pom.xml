@@ -16,9 +16,9 @@
         <allure-cucumber6.version>2.13.6</allure-cucumber6.version>
         <allure-rest-assured>2.21.0</allure-rest-assured>
         <testng.version>7.3.0</testng.version>
-        <cucumber.version>6.9.0</cucumber.version>
-        <cucumber-testng.version>6.9.0</cucumber-testng.version>
-        <cucumber-picocontainer.version>6.9.1</cucumber-picocontainer.version>
+        <cucumber.version>7.2.3</cucumber.version>
+        <cucumber-testng.version>7.2.3</cucumber-testng.version>
+        <cucumber-picocontainer.version>7.2.3</cucumber-picocontainer.version>
         <log4j-slf4j-impl.version>2.13.3</log4j-slf4j-impl.version>
         <lombok.version>1.18.20</lombok.version>
         <assertj-core.version>3.20.2</assertj-core.version>

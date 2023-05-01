@@ -7,18 +7,18 @@ Feature: Car CRUD
   Scenario: C01 Newly created car by cars endpoint should have saved all provided details
             and could be asserted
     When Car request is updated with
-      | brand | model | generation | color | code | displacement | cylinderSystem | power |
-      | BMW   | 330   | 4          | black | 71   | 2996         | R6             | 500   |
+      | brand | model | generation | colorDetails.color | colorDetails.code | engine.displacement | engine.cylinderSystem | engine.power |
+      | BMW   | 330   | 4          | black              | 71                | 2996                | R6                    | 500          |
      And User sends a valid POST request to Cars to create a new car
     Then Response status should be 201
      And Car should have data
-       | brand | model | generation | color | code | displacement | cylinderSystem | power |
-       | BMW   | 330   | 4          | black | 71   | 2996         | R6             | 500   |
+       | brand | model | generation | colorDetails.color | colorDetails.code | engine.displacement | engine.cylinderSystem | engine.power |
+       | BMW   | 330   | 4          | black              | 71                | 2996                | R6                    | 500          |
     When User sends a valid GET request to Cars looking for car by Id
     Then Response status should be 200
      And Car should have data
-      | brand | model | generation | color | code | displacement | cylinderSystem | power |
-      | BMW   | 330   | 4          | black | 71   | 2996         | R6             | 500   |
+       | brand | model | generation | colorDetails.color | colorDetails.code | engine.displacement | engine.cylinderSystem | engine.power |
+       | BMW   | 330   | 4          | black              | 71                | 2996                | R6                    | 500          |
 
   Scenario: C02 Updated car by cars endpoint should have saved all provided details
     When User sends a valid POST request to Cars to create a new car
